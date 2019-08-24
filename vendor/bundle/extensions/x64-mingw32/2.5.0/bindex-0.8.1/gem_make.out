@@ -1,0 +1,16 @@
+current directory: C:/Users/joe/Documents/RAILS-Projects/alpha_blog/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+C:/Ruby25-x64/bin/ruby.exe -r ./siteconf20190824-10096-13e3vbn.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/joe/Documents/RAILS-Projects/alpha_blog/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/Users/joe/Documents/RAILS-Projects/alpha_blog/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: C:/Users/joe/Documents/RAILS-Projects/alpha_blog/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190824-10096-1mvjbfz/skiptrace/internal

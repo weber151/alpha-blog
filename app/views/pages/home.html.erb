@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border: 15px double BurlyWood;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+<title>Page Title</title>
+</head>
+
+<body style="background-image:url('background.jpg');">
+
+<h1 style="font-family:Calibri;text-align:center;font-size:250%;">
+	Welcome to my Website
+</h1>
+
+<h2 style="text-align:center;font-family:Remnant;">
+  vvv Two Options Below vvv
+</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2 style="text-align:center;">My Rational Thought</h2>
+    <p style="text-align:center;font-family:MV Boli">
+	somfware Statistics0 <b>Teaching</b>teaches<Sub style="color:red;">Technology</sub> tips toll tools <sup>toread</sup> travel tutorial
+	tutorials ,, <b style="font-family:Courier;">twitter typography unbuntu usability video</b> <i>videos</i> visualization
+    </p>
+  </div>
+  <div class="column" style="background-color:#aaa;">
+    <h2 style="text-align:center;">My Emotional Thought</h2>
+    <p style="text-align:center;font-family:MV Boli">
+	somfware Statistics0 <b>Teaching</b> <Sub style="color:red;">Technology</sub> tips toll tools toread travel tutorial
+	tutorials ,, <b style="font-family:Papyrus;">twitter typography</b> <i>unbuntu<i> <strong style="color:yellow;font-family:Verdana;">usability video videos</strong> visualization
+    </p>
+  </div>
+</div>
+<%= link_to "About", about_path %>
+
+</body>
+</html>
